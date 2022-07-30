@@ -1,0 +1,156 @@
+*{padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    float: left;
+    background: white;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    margin: 13px 0 0;
+}
+
+.navbar {
+    width: 90%;
+    float: left; 
+    display: block;
+    text-align: right;
+    margin: 38px 0;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar li a {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 15px 20px;
+    color: #000;
+}
+
+.navbar li a:hover {
+    color: #5468;
+}
+
+
+
+.about {
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background: #fff;
+}
+
+.box1 {
+    width: 30%;
+    float: left;
+}
+
+.box1 h2 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin: 15px;
+}
+
+.box1 p {
+    font-size: 22px;
+    margin: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-weight: 300;
+
+}
+
+.btn {
+    width: 120px;
+    height: 60px;   
+    color: #000;
+    background-color: yellowgreen;
+    border-radius: 6px;
+    box-shadow: #5235;
+    font-size: 1rem;
+    transition:0.5s;
+    margin: 15px
+        
+}
+
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 #4554;
+    
+}
+
+.box2 {
+    width: 70%;
+    float: left;
+}
+
+.images-class {
+    width: 100%;
+}
+
+.colors .box3 {
+    width: 33.33%;
+    height: 600px;
+    background: #3858;
+    float: left;
+    
+}
+
+.colors .box4 {
+    width: 33.33%;
+    height: 600px;
+    background: #7695;
+    float: left;
+    
+}
+
+.colors .box5 {
+    width: 33.33%;
+    height: 600px;
+    background: #1025;
+    float: left;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background: #000;
+    float: left;
+}
